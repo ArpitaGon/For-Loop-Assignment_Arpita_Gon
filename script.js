@@ -17,7 +17,7 @@ for (let i=0; i<10; i++){
 let wordsArray = ["cat", "window", "bottle", "car", "javaScript"]
 
 for (let i = 0; i < wordsArray.length; i++){
-    if (wordsArray[i].length>4){
+    if (wordsArray[i].trim().length>4){
         console.log("Long word alert!")
     } else {
         console.log(wordsArray[i])
